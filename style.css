@@ -52,6 +52,30 @@ a{
      font-weight: 600;
 }
 
+button{
+   padding: 5px 10px;
+   border-radius: 5px;
+   outline: none;
+   font-weight: 600;
+}
+
+button.submit{
+     background-color: green;
+     color: white;
+}
+button.reset{
+     background-color: red;
+     color: white;
+}
+
+.btnn{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     column-gap: 20px;
+     margin-top: 20px;
+}
+
 /* ====erorr box==== */
 
 .name_err,
@@ -67,5 +91,16 @@ a{
 .reg_card_box{
      width: 300px;
      height: 400px;
-     background-color: gray;
+     background-color: transparent;
+     display: none;
+}
+
+.outputbox_heading{
+     text-align: center;
+     color: greenyellow;
+}
+
+.outputbox{
+     margin-top: 20px;
+     padding-left: 20px;
 }
