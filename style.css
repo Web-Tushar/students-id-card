@@ -1,0 +1,71 @@
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+ul,ol{
+     list-style-type: none;
+}
+
+a{
+     text-decoration: none;
+}
+
+.container{
+     width: 800px;
+     margin: 0 auto;
+}
+
+.main{
+     margin-top: 30px;
+}
+
+.main_wrapper{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.reg_box{
+     background-color: chartreuse;
+     padding: 40px;
+}
+.heading{
+     text-align: center;
+     margin-bottom: 10px;
+     text-transform: capitalize;
+}
+
+.input_box{
+     display: flex;
+     flex-direction: column;
+     row-gap: 30px;
+
+}
+.name_input{
+     padding: 10px;
+     border-radius: 10px;
+     outline: none;
+}
+.lebel{
+     font-weight: 600;
+}
+
+/* ====erorr box==== */
+
+.name_err,
+.email_err,
+.number_err,
+.Address_err{
+     color: red;
+}
+/* ====erorr box end ==== */
+
+/* =====card box==== */
+
+.reg_card_box{
+     width: 300px;
+     height: 400px;
+     background-color: gray;
+}
